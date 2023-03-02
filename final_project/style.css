@@ -69,4 +69,15 @@ a {
   color: aliceblue;
 }
 
-/** members page css **/
+/** albums page css **/
+.album-intro {
+  padding-left: 5%;
+}
+
+.album-content {
+  padding-left: 5%;
+}
+
+.album-image {
+  width: 40%;
+}
