@@ -1,0 +1,6 @@
+The mini project is one set for after learning about html tags, links and images.
+They will create a folder which has a html file, and an image within it.
+The html page will be about something that they like, maybe an animal, or character etc.
+It must include a title, paragraph, link to further website and an image of their chosen thing.  This image should also have a size set at a percentage instead of the full image or px so that it is responsive.
+The mini_project html file is an example of what the page should look like.
+This page will then be used to experiment with CSS later on.
