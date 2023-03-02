@@ -1,10 +1,19 @@
-body {
+.homepage {
   background: rgb(255, 255, 255);
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, 1) 7%,
-    rgba(198, 98, 229, 1) 35%,
+    rgba(255, 255, 255, 1) 2%,
+    rgba(198, 98, 229, 1) 24%,
     rgba(79, 36, 115, 1) 84%
+  );
+}
+
+body {
+  background: rgb(198, 98, 229);
+  background: linear-gradient(
+    184deg,
+    rgba(198, 98, 229, 1) 21%,
+    rgba(79, 36, 115, 1) 98%
   );
 }
 
@@ -24,7 +33,24 @@ body {
 }
 
 a {
-  color: aliceblue;
+  color: black;
   text-decoration: none;
+  font-size: x-large;
+}
+
+.home-content {
+  padding: 10%;
+  padding-top: 0%;
+  margin: 0%;
+}
+
+.home-content p {
+  color: aliceblue;
+  text-align: justify;
+  font-size: large;
+}
+
+#logline {
+  text-align: center;
   font-size: x-large;
 }
