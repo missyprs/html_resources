@@ -1,0 +1,25 @@
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 7%,
+    rgba(198, 98, 229, 1) 35%,
+    rgba(79, 36, 115, 1) 84%
+  );
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+a {
+  color: aliceblue;
+}
+
+#tinytanhome {
+  padding-left: 10%;
+}
