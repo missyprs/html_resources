@@ -76,8 +76,60 @@ a {
 
 .album-content {
   padding-left: 5%;
+  padding-right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.7fr 0.5fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "a1 s1"
+    "a2 s2"
+    "a3 s3"
+    "a4 s4"
+    "a5 s5"
+    "a6 s6";
+}
+
+.a1 {
+  grid-area: a1;
+}
+.a2 {
+  grid-area: a2;
+}
+.a3 {
+  grid-area: a3;
+}
+.a4 {
+  grid-area: a4;
+}
+.a5 {
+  grid-area: a5;
+}
+
+.s1 {
+  grid-area: s1;
+  padding-left: 3%;
+}
+.s2 {
+  grid-area: s2;
+  padding-left: 3%;
+}
+.s3 {
+  grid-area: s3;
+  padding-left: 3%;
+}
+.s4 {
+  grid-area: s4;
+  padding-left: 3%;
+}
+.s5 {
+  grid-area: s5;
+  padding-left: 3%;
 }
 
 .album-image {
-  width: 40%;
+  width: 100%;
+}
+.song-links {
+  width: 60%;
 }
