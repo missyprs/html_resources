@@ -3,6 +3,53 @@
   <head>
     <title>BTS discography</title>
     <link rel="stylesheet" href="style.css" />
+    <script>
+
+
+      function ly_answer() {
+        var x = document.getElementById("s1");
+        if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+          x.style.display = "none";
+        }
+      }
+      function map_of_the_soul() {
+        var x = document.getElementById("s2");
+        if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+          x.style.display = "none";
+        }
+      }
+
+      function orul82(){ 
+        var x = document.getElementById("s3");
+        if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+          x.style.display = "none";
+        }
+
+      }
+      function proof() {
+        var x = document.getElementById("s4");
+        if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+          x.style.display = "none";
+        }
+      }
+      function wings() {
+        var x = document.getElementById("s5");
+        if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+          x.style.display = "none";
+        }
+      }
+
+    </script>
   </head>
   <body>
     <div class="nav-bar">
@@ -22,10 +69,12 @@
       <p>A Collection of some BTS albums, and my favourite songs from them</p>
     </div>
     <div class="album-content">
+
       <div class="a1">
-          <img src="images/album_images/ly_answer.jpg" class="album-image" />
+          <img src="images/album_images/ly_answer.jpg" class="album-image" onclick="ly_answer()"/>
       </div>
-      <div class="s1">
+      
+      <div id="s1" style="display: none;">
       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/01380RE6UfsPSdiUIwrCoH?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2ngmiq1KoYn3x25VOmvd8F?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1rLkzFZdokhx6Wcs80uvnw?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6a0gRYXKK0YU69cXaB2RrK?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -34,29 +83,29 @@
       <div class="a2">
           <img
             src="images/album_images/map_of_the_soul.webp"
-            class="album-image"
+            class="album-image" onclick="map_of_the_soul()"
           />
       </div>
-      <div class="s2">
+      <div id="s2" style="display: none;">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2EmcTFQ1rM11wp2ztsXTHa?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4bZZVcgWWMWPBwzTTp642w?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0fZRNhPJ4AGmwY7rkpdbqK?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5LvqzuJCNpi2pNkJAX8mBT?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
         <div class="a3">
-          <img src="images/album_images/orul82.jpg" class="album-image" />
+          <img src="images/album_images/orul82.jpg" class="album-image"  onclick="orul82()"/>
         </div>
-        <div class="s3">
+        <div id="s3" style="display: none;">
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4eqHEzFsCCiGALC1MHbqnU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>        </div>
         <div class="a4">
-          <img src="images/album_images/proof.jpg" class="album-image" />
+          <img src="images/album_images/proof.jpg" class="album-image" onclick="proof()"/>
         </div>
-        <div class="s4">
+        <div id="s4" style="display: none;">
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/69xohKu8C1fsflYAiSNbwM?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>      </div>
         <div class="a5">
-          <img src="images/album_images/wings.jpeg" class="album-image" />
+          <img src="images/album_images/wings.jpeg" class="album-image" onclick="wings()"/>
         </div>
-        <div class="s5">
+        <div id="s5" style="display: none;">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2u54HNQamwFuOMLSuhSRom?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1nWB8isqs2tviWk20G5pow?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/52d5NT69mkmr6WzvQJ9vHr?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

@@ -136,16 +136,8 @@ a {
 
 /** members css **/
 
-.members-content {
-  display: flex;
-}
-
-.member {
-  width: 14%;
-}
-
 .members-content img {
-  width: 100%;
+  width: 40%;
 }
 
 #suga img:hover {
