@@ -3,6 +3,9 @@
   <head>
     <title>BTS members</title>
     <link rel="stylesheet" href="style.css" />
+    <script>
+      alert("BTS MEMBERS PAGE");
+    </script>
   </head>
   <body>
     <div class="nav-bar">
@@ -20,8 +23,13 @@
     <!-- this will have photos of the members that can be clicked, which will then give information about each of them -->
     <div class="members-content">
       <div class="member" id="suga">
-        <img src="images/members/suga.jpg" />
-        <div class="overlay"><h1>SUGA</h1></div>
+        <img src="images/members/suga.jpg" id="sugaImg1" />
+        <button
+          type="button"
+          value="sugaButton"
+          onclick="document.getElementById('sugaImg1').src = 'images/members/suga2.jpg';">
+          Suga
+        </button>
       </div>
       <div class="member" id="rm">
         <img src="images/members/rm.jpg" />
@@ -47,6 +55,13 @@
         <img src="images/members/v.jpeg" />
         <p></p>
       </div>
+    </div>
+    <div class="text">
+      <!-- This will have text information about the members that will change whena members button is clicked-->
+      <p id="memberText">
+        Click on a member to find out something about them ٩(｡•́‿•̀｡)۶
+      </p>
+      <div id="suga info"><p>Suga is ....</p></div>
     </div>
   </body>
 </html>
