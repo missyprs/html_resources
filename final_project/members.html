@@ -4,10 +4,35 @@
     <title>BTS members</title>
     <link rel="stylesheet" href="style.css" />
     <script>
-      alert("BTS MEMBERS PAGE");
+      //alert("BTS MEMBERS PAGE");
       function sugaInfo() {
         document.getElementById("sugaImg1").src = "images/members/suga2.jpg";
-        document.getElementById("memberText").textContent = "New text.";
+        document.getElementById("memberText").textContent = "Suga";
+      }
+      function rmInfo() {
+        document.getElementById("rmImg1").src = "images/members/suga2.jpg";
+        document.getElementById("memberText").textContent = "RM";
+      }
+      function jinInfo() {
+        document.getElementById("jinImg1").src = "images/members/suga2.jpg";
+        document.getElementById("memberText").textContent = "Jin";
+      }
+      function jiminInfo() {
+        document.getElementById("jiminImg1").src = "images/members/suga2.jpg";
+        document.getElementById("memberText").textContent = "Jimin";
+      }
+      function jhopeInfo() {
+        document.getElementById("jhopeImg1").src = "images/members/suga2.jpg";
+        document.getElementById("memberText").textContent = "J-Hope";
+      }
+      function jungkookInfo() {
+        document.getElementById("jungkookImg1").src =
+          "images/members/suga2.jpg";
+        document.getElementById("memberText").textContent = "Jung Kook";
+      }
+      function vInfo() {
+        document.getElementById("vImg1").src = "images/members/suga2.jpg";
+        document.getElementById("memberText").textContent = "V";
       }
     </script>
   </head>
@@ -30,27 +55,36 @@
         <img src="images/members/suga.jpg" id="sugaImg1" onclick="sugaInfo()" />
       </div>
       <div class="member" id="rm">
-        <img src="images/members/rm.jpg" />
+        <img src="images/members/rm.jpg" id="rmImg1" onclick="rmInfo()" />
         <p></p>
       </div>
       <div class="member" id="jin">
-        <img src="images/members/jin.webp" />
+        <img src="images/members/jin.webp" id="jinImg1" onclick="jinInfo()" />
         <p></p>
       </div>
       <div class="member" id="jimin">
-        <img src="images/members/jimin.jpg" />
+        <img
+          src="images/members/jimin.jpg"
+          id="jiminImg1"
+          onclick="jiminInfo()" />
         <p></p>
       </div>
       <div class="member" id="jhope">
-        <img src="images/members/j-hope.jpg" />
+        <img
+          src="images/members/j-hope.jpg"
+          id="jhopeImg1"
+          onclick="jhopeInfo()" />
         <p></p>
       </div>
       <div class="member" id="jungkook">
-        <img src="images/members/jungkook.jpg" />
+        <img
+          src="images/members/jungkook.jpg"
+          id="jungkookImg1"
+          onclick="jungkookInfo()" />
         <p></p>
       </div>
       <div class="member" id="v">
-        <img src="images/members/v.jpeg" />
+        <img src="images/members/v.jpeg" id="vImg1" onclick="vInfo()" />
         <p></p>
       </div>
     </div>
