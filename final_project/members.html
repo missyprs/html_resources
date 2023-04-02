@@ -5,6 +5,10 @@
     <link rel="stylesheet" href="style.css" />
     <script>
       alert("BTS MEMBERS PAGE");
+      function sugaInfo() {
+        document.getElementById("sugaImg1").src = "images/members/suga2.jpg";
+        document.getElementById("memberText").textContent = "New text.";
+      }
     </script>
   </head>
   <body>
@@ -23,13 +27,7 @@
     <!-- this will have photos of the members that can be clicked, which will then give information about each of them -->
     <div class="members-content">
       <div class="member" id="suga">
-        <img src="images/members/suga.jpg" id="sugaImg1" />
-        <button
-          type="button"
-          value="sugaButton"
-          onclick="document.getElementById('sugaImg1').src = 'images/members/suga2.jpg';">
-          Suga
-        </button>
+        <img src="images/members/suga.jpg" id="sugaImg1" onclick="sugaInfo()" />
       </div>
       <div class="member" id="rm">
         <img src="images/members/rm.jpg" />
@@ -61,7 +59,6 @@
       <p id="memberText">
         Click on a member to find out something about them ٩(｡•́‿•̀｡)۶
       </p>
-      <div id="suga info"><p>Suga is ....</p></div>
     </div>
   </body>
 </html>
